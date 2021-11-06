@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.5.27)  5 NOV 2021 23:10
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.5.27)  5 NOV 2021 23:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -489,33 +489,33 @@ LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 88.
+(Font)              using `TU/ptm/bx/n' instead on input line 94.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 88.
+(Font)              using `TU/ptm/bx/n' instead on input line 94.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 91.
+(Font)              using `TU/ptm/bx/n' instead on input line 97.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 98.
+(Font)              using `TU/ptm/bx/n' instead on input line 104.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 100.
+(Font)              using `TU/ptm/bx/n' instead on input line 106.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 103.
+(Font)              using `TU/ptm/bx/n' instead on input line 109.
 
 [1
 
 
 ]
-Overfull \hbox (145.39204pt too wide) in paragraph at lines 112--136
+Overfull \hbox (145.39204pt too wide) in paragraph at lines 118--142
  [][] 
  []
 
@@ -531,30 +531,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 [2
 
-
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 151.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `proposta.out' has not changed.
 (rerunfilecheck)             Checksum: B678714D55E767C0D60F4E47B482C172;321.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
  10924 strings out of 479819
  159070 string characters out of 5895846
- 422348 words of memory out of 5000000
+ 423348 words of memory out of 5000000
  27898 multiletter control sequences out of 15000+600000
  539122 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 34i,8n,45p,541b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,45p,613b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv (2 pages, 50860 bytes).
+Output written on /home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv (2 pages, 54672 bytes).

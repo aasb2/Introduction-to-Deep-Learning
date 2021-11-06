@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex proposta"] 1636159400 "proposta.aux" "proposta.bbl" "proposta" 1636164645
+["bibtex proposta"] 1636166259 "proposta.aux" "proposta.bbl" "proposta" 1636166475
   "/usr/share/texlive/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "mybib.bib" 1636159359 724 eac19e3659b41f75820533df9aff2f93 ""
-  "proposta.aux" 1636164645 1409 f361f4e4441bd600c74876056c097aec "xelatex"
+  "proposta.aux" 1636166475 1409 f361f4e4441bd600c74876056c097aec "xelatex"
   (generated)
-  "proposta.bbl"
   "proposta.blg"
-["xdvipdfmx"] 1636164645 "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv" "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.pdf" "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta" 1636164645
-  "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv" 1636164645 50860 8483f791ac54516e9adf142146295f35 "xelatex"
+  "proposta.bbl"
+["xdvipdfmx"] 1636166475 "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv" "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.pdf" "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta" 1636166475
+  "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv" 1636166475 54672 e644ada4c9d88269e096f59e8e4bd03e "xelatex"
   (generated)
   "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.pdf"
-["xelatex"] 1636164644 "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.tex" "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv" "proposta" 1636164645
+["xelatex"] 1636166474 "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.tex" "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv" "proposta" 1636166475
   "/etc/texmf/web2c/texmf.cnf" 1622137159 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.aux" 1636164645 1409 f361f4e4441bd600c74876056c097aec ""
-  "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.tex" 1636164644 6893 49daa293868b5c1a2d4cf306301fd32f ""
+  "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.aux" 1636166475 1409 f361f4e4441bd600c74876056c097aec ""
+  "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.tex" 1636166474 7322 ce66ede939e7182d8e04afe641c6c58a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -92,14 +92,14 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1622137217 4646730 1bcc02d291291146e1a4597355cc2eda ""
-  "proposta.aux" 1636164645 1409 f361f4e4441bd600c74876056c097aec "xelatex"
-  "proposta.bbl" 1636159400 1114 4149ee2c4d597ee2f1ab8164989ed371 "bibtex proposta"
-  "proposta.out" 1636164645 321 b678714d55e767c0d60f4e47b482c172 "xelatex"
-  "proposta.tex" 1636164644 6893 49daa293868b5c1a2d4cf306301fd32f ""
+  "proposta.aux" 1636166475 1409 f361f4e4441bd600c74876056c097aec "xelatex"
+  "proposta.bbl" 1636166260 1114 4149ee2c4d597ee2f1ab8164989ed371 "bibtex proposta"
+  "proposta.out" 1636166475 321 b678714d55e767c0d60f4e47b482c172 "xelatex"
+  "proposta.tex" 1636166474 7322 ce66ede939e7182d8e04afe641c6c58a ""
   (generated)
-  "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv"
   "proposta.log"
-  "proposta.aux"
-  "proposta.xdv"
-  "proposta.out"
   "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.log"
+  "/home/student/Desktop/Introduction-to-Deep-Learning/Proposta/proposta.xdv"
+  "proposta.xdv"
+  "proposta.aux"
+  "proposta.out"

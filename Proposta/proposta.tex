@@ -75,17 +75,23 @@ Fazer a limpeza e seleção dos dados que serão usados no projeto. Os dados sel
 Através do Uso da biblioteca pandas, numpy e matplotlib, analisar o comportamento e concentração dos tons de cinza em cada pixel
 
 \item \textbf{Classificador de Digitos:}
-	A criação do Classificador será dividida em duas partes, ambos serão implementados usando uma rede Neural  convolucional. Na Primeira parte será usado o dataset MNIST \cite{b1} e será criado um classificador que reconhece imagens que contém apenas um digito, Na segunda Parte será criado um classificador que reconhece mais de um digito na mesma imagem através do processo de segmentação e além disso os Caracteres '(', ')', '+', '-', 'x' e '/':
+	A criação do Classificador será dividida em duas partes, ambos serão implementados usando uma rede Neural  convolucional. Na Primeira parte será usado o dataset MNIST \cite{b1} e será criado um classificador que reconhece imagens que contém apenas um digito, Na segunda Parte será criado um classificador que reconhece mais de um digito na mesma imagem através do processo de segmentação e além disso os Caracteres '(', ')', '+', '-', 'x' e '/'. Serão usadas as bibliotecas: keras, pytorch, tensorflow e scikit learn.
 	
 	
     \begin{itemize}
         \item \textbf{Classificador de Apenas Um Digito:}
         
         \begin{itemize}       
-        \item \textbf{Estrutura do Modelo da Rede:}
+        \item \textbf{Estrutura do Modelo da Rede:} Uma camada convolucional que recebe a entrada.
+        Um pooling que reduz a dimensão da representação.
+        Outra camada de convolução.
+        um novo pooling reduzindo a dimensão
+        Um flatten para transformar a uma camada em formato 1d
+        outro flatten reduzindo o tamanho do vetor
+        Um softmax com a quantidade de classes de saída.
         \end{itemize}
         
-        \item \textbf{Classificador Multidigito:}
+        \item \textbf{Classificador Multidigito:} 
         
         \begin{itemize}       
         \item \textbf{Estrutura do Modelo da Rede:} Similarmenente ao modelo anterior, mas com algumas alterações para permitir que a imagem seja segmentada e reconheça mais de um digito por imagem.
@@ -101,10 +107,10 @@ Com o classificador em mãos, realizar alguns experimentos e verificar seus resu
 A partir dos dados obtidos nas etapas anteriores, analisar os resultados obtidos.
 
 \item \textbf{Interface do Usuário (Opcional): } 
-    Caso Haja tempo o suficiente planeja-se usar o classificador Multidigito para criar um simples problema que resolve cálculos matemáticos manuscrito que contenham apenas ás quatro operações básicas, tirando uma foto da folha de papel que os contém
+    Caso Haja tempo o suficiente planeja-se usar o classificador Multidigito para criar um simples programa que resolve cálculos matemáticos manuscritos que contenham apenas ás quatro operações básicas, tirando uma foto da folha de papel que os contém
 \end{itemize}
 
-\clearpage
+
 \section*{Cronograma de Atividades}
 \begin{table}[!ht]
 	\centering
