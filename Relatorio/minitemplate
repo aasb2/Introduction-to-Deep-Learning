@@ -1,0 +1,185 @@
+%\begin{table}[H]
+	%\centering
+    %\caption{\label{tab:cr1-gt} Comparação entre o Classificador Categórico e o Gaussiano}
+    %\begin{small}
+        %\begin{tabular}{ccc}
+        	%\\
+        	%\multicolumn{2}{c}{{\fontsize{13}{\baselineskip} \selectfont C}{\fontsize{11}{\baselineskip}\selectfont RONOGRAMA DE}{\fontsize{13}{\baselineskip} \selectfont A}{\fontsize{11}{\baselineskip}\selectfont TIVIDADES }}\\ 
+        	%\\
+            %\hline
+             %                       & Categórico       & Gaussiano\\
+            %\hline
+            %Precision               & 0.89             & 0.84\\
+            %Accuracy                & 0.89             & 0.84\\
+            %Recall Score            & 0.89             & 0.84\\
+            %F1-Score                & 0.89             & 0.84\\
+            
+            %\hline
+        %\end{tabular}
+    %\end{small}
+%\end{table}
+
+%\begin{table}[H]
+
+	%\centering
+    %\caption{\label{tab:cr1-cnb} Relatório de Classificação por Label do Classificador Categórico.}
+    %\begin{small}
+        %\begin{tabular}{ccc}
+        
+            %\hline
+             %                       & 0                & 1\\
+            %\hline
+            %Precision               & 0.93             & 0.53\\
+            %Recall Score            & 0.95             & 0.43\\
+            %F1-Score                & 0.94             & 0.47\\
+            
+            %\hline
+        %\end{tabular}
+    %\end{small}
+
+%\end{table}
+
+%\begin{figure}[H]
+%\centerline{\includegraphics[width=0.4\textwidth]{IMGS/cm-categorico.png}}
+
+%\caption{\label{fig:cm1-cnb}Confusion Matrix do Classificador Categórico}
+%\end{figure}
+
+
+
+
+%\begin{table}[H]
+
+	%\centering
+    %\caption{\label{tab:cr1-gnb} Relatório de Classificação por Label do Classificador Gaussiano}
+    %\begin{small}
+       % \begin{tabular}{ccc}
+        
+            %\hline
+             %                       & 0                & 1\\
+            %\hline
+            %Precision                & 0.89             & 0.49\\
+            %Recall Score            & 1.00             & 0.03\\
+            %F1-Score                & 0.94             & 0.06\\
+            
+            %\hline
+        %\end{tabular}
+    %\end{small}
+
+%\end{table}
+
+
+%\begin{figure}[H]
+%\centerline{\includegraphics[width=0.4\textwidth]{IMGS/cm-gaussiano.png}}
+%\label{cm1-gnb}
+%\caption{\label{fig:cm1-gnb}Confusion Matrix do Classificador Gaussiano}
+%\end{figure}
+
+
+
+%\begin{table}[H]
+	%\centering
+    %\caption{\label{tab:cr2-gt} Comparação entre o Classificador Categórico e o Gaussiano}
+    %\begin{small}
+        %\begin{tabular}{ccc}
+        	%\\
+        	%\multicolumn{2}{c}{{\fontsize{13}{\baselineskip} \selectfont C}{\fontsize{11}{\baselineskip}\selectfont RONOGRAMA DE}{\fontsize{13}{\baselineskip} \selectfont A}{\fontsize{11}{\baselineskip}\selectfont TIVIDADES }}\\ 
+        	%\\
+            %\hline
+            %                        & Categórico       & Gaussiano\\
+            %\hline
+            %Precision               & 0.88             & 0.88\\
+            %Accuracy                & 0.88             & 0.88\\
+            %Recall Score            & 0.88             & 0.88\\
+            %F1-Score                & 0.88             & 0.88\\
+            
+            %\hline
+        %\end{tabular}
+    %\end{small}
+%\end{table}
+
+
+%\begin{table}[H]
+
+	%\centering
+    %\caption{\label{tab:cr2-cnb} Relatório de Classificação por Label do Classificador Categórico.}
+    %\begin{small}
+        %\begin{tabular}{ccc}
+        
+            %\hline
+            %                        & 0                & 1\\
+            %\hline
+            %Precision               & 0.88             & 0.50\\
+            %Recall Score            & 1.00             & 0.02\\
+            %F1-Score                & 0.94             & 0.04\\
+            
+            %\hline
+        %\end{tabular}
+    %\end{small}
+%\end{table}
+
+%\begin{figure}[H]
+    %\centerline{\includegraphics[width=0.4\textwidth]{IMGS/cm-cnb-age-only.png}}
+    
+    %\caption{\label{fig:cm2-cnb}Confusion Matrix do Classificador Categórico}
+%\end{figure}
+
+
+%\begin{table}[H]
+
+	%\centering
+    %\caption{\label{tab:cr2-gnb} Relatório de Classificação por Label do Classificador Gaussiano}
+    %\begin{small}
+        %\begin{tabular}{ccc}
+        
+            %\hline
+            %                        & 0                & 1\\
+            %\hline
+            %Precision               & 0.88             & 0.48\\
+            %Recall Score            & 1.00             & 0.03\\
+            %F1-Score                & 0.94             & 0.05\\
+            
+            %\hline
+        %\end{tabular}
+    %\end{small}
+
+%\end{table}
+
+
+%\begin{figure}[H]
+    %\centerline{\includegraphics[width=0.4\textwidth]{IMGS/cm-gnb-age-only.png}}
+    %\caption{\label{fig:cm2-gnb}Confusion Matrix do Classificador Gaussiano}
+%\end{figure}
+
+%\subsection{Usando Apenas Variáveis Numéricas Para Treino}
+
+%\begin{table}[H]
+	%\centering
+    %\caption{\label{tab:cr3-gt} Comparação entre o Classificador Categórico e o Gaussiano}
+    %\begin{small}
+        %\begin{tabular}{ccc}
+        	%\\
+        	%\multicolumn{2}{c}{{\fontsize{13}{\baselineskip} \selectfont C}{\fontsize{11}{\baselineskip}\selectfont RONOGRAMA DE}{\fontsize{13}{\baselineskip} \selectfont A}{\fontsize{11}{\baselineskip}\selectfont TIVIDADES }}\\ 
+        	%\\
+            %\hline
+            %                        & Categórico       & Gaussiano\\
+            %\hline
+            %Precision               & 0.89             & 0.89\\
+            %Accuracy                & 0.89             & 0.89\\
+            %Recall Score            & 0.89             & 0.89\\
+            %F1-Score                & 0.89             & 0.89\\
+            
+            %\hline
+        %\end{tabular}
+    %\end{small}
+%\end{table}
+
+%\begin{figure}[H]
+    %\centerline{\includegraphics[width=0.4\textwidth]{IMGS/block1.png}}
+    
+    %\caption{\label{fig:block1}Passo a Passo para Montar o Classificador Ingênuo de Bayes}
+%\end{figure}
+
+%\begin{enumerate}
+
+%\end{enumerate}

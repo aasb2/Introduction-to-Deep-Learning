@@ -1,0 +1,181 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{placeins}
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Redes Neurais Convolucionais}
+
+\author{\IEEEauthorblockN{Arthur Abrahão Santos Barbosa}
+\IEEEauthorblockA{\textit{Universidade Federal de Pernambuco} \\
+\textit{Centro de Informática}\\
+Pernambuco, Brasil \\
+aasb2@cin.ufpe.br}
+\and
+\IEEEauthorblockN{Filipe Samuel da Silva}
+\IEEEauthorblockA{\textit{Universidade Federal de Pernambuco} \\
+\textit{Centro de Informática}\\
+Pernambuco, Brasil \\
+fss8@cin.ufpe.br}
+
+}
+
+\maketitle
+
+
+
+
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+Desnvolver um Classificador Multiclasse que reconheça as imagens do dataset CIFAR100 \cite{dataset}. 
+\subsection{Objetivos Específicos}
+\begin{itemize}
+\item Compreender a implementação de uma Rede Neural Convolucional
+\item Demonstrar a Importância do Aprendizado Profundo e suas aplicações
+\item Demonstrar a eficiência de três arquiteturas importantes para a história do Deep Learning
+\end{itemize}
+\section{Justificativa}
+Este projeto foi escolhido com base no fato deste dataset ser bastante usado para testar redes neurais com imagens coloridas, 
+e pelo fato de ter uma divisão bastante equilibrada dos dados.\cite{dataset}.
+
+
+Sua função é verificar a qual das classes pertence uma imagem de tamanho 32x32.
+
+\section{Base de Dados}
+
+
+
+
+
+\section{Análise Exploratória dos Dados}
+\subsection{Descrição Estatística dos dados}
+
+
+
+\subsection{Sobre o Projeto}
+%Para montar o classificador foi necessário passar  pelas seguintes etapas:
+
+
+
+\section{Sobre as Métricas Utilizadas}
+
+\subsection{Precision}
+
+Precision é a razão
+    \begin{equation}
+        \frac{A_c}{A_c + A_e}
+    \end{equation}
+
+    onde:
+
+    \begin{itemize}
+    \item $A_c$ é o número de amostras corretamente classificadas de uma determinada classe.
+    \item $A_e$ é o número de amostras  erroneamente classificadas como sendo desta determinada classe.
+    \end{itemize}
+
+    Precision é intuitivamente a habilidade do classificador não marcar como pertencente a uma classe uma amostra que não pertence a esta. O melhor valor de Precision é 1 e o pior é zero.
+    \cite{b7}
+\subsection{Accuracy} 
+
+Accuracy é a fração de amostras preditas corretamente, e é dada pela seguinte fórmula:
+
+\begin{equation}
+    \frac{\sum\limits_{1}^{n}A_c}{\sum\limits_{1}^{n}A_t}
+\end{equation}
+
+
+
+
+onde:
+\begin{itemize}
+    \item $n$ é o número de classes
+    \item $A_c$ é o número de amostras corretamente classificadas de uma determinada classe.
+    \item $A_t$ é o número de amostras que pertencem a uma determinada classe
+\end{itemize}
+
+\cite{b8}
+\subsection{Recall-Score}
+O Recall Score é a razão:
+
+    \begin{equation}
+        \frac{A_c}{A_t}
+    \end{equation}
+    onde:
+    \begin{itemize}
+        \item $A_c$ é o número de amostras classificadas corretamente de uma determinada classe
+        \item $A_t$ é o número de amostras que pertencem a esta classe
+    \end{itemize}
+    O Recall Score é intuitivamente a habilidade do classificador de encontrar todas as amostras pertencentes a uma classe especifica. O melhor valor do Recall Score é 1 e o pior valor é 0.
+    \cite{b6}
+
+\subsection{F1-Score}
+O F1 Score pode ser interpretado como a média ponderada da precisão e recall. O melhor valor que o  F1 score pode alcançar é 1, o pior é 0. A contribuição relativa da precisão e recall para o F1 score são iguais. A fórmula para o F1 score é:
+\begin{equation}
+    F1 = \frac{2\cdot(precision\cdot recall)}{precision + recall}
+\end{equation}
+\cite{b2}
+\subsection{Confusion Matrix}
+No caso de classificação multiclasse, uma confusion matrix é dividida em NxN categorias(onde N é o número de classes do problema), cada uma apresentando a quantidade de amostras que se encaixam nesta.
+A diagonal do meio representa a quantidade de amostras classificadas corretamente e as demais seções da matriz demonstram o número de amostras classificados erroneamente, a quais classes eles pertencem e em quais classes eles foram classificados.
+
+\cite{metrics}
+
+
+
+
+\section{Redes Neurais Convolucionais}
+
+
+\subsection{AlexNet}
+
+\subsection{GoogLeNet}
+
+\subsection{Squeezenet}
+
+
+\section{Experimentos}
+
+\subsection{Experimentos Iniciais}
+
+\subsection{CIFAR10}
+
+
+\subsection{Similaridade de Pixel}
+
+\subsection{Treinando os Modelos}
+
+\subsection{Imagens em Grayscale}
+
+\subsection{Sem Normalização e sem Data Augmentation}
+
+\subsection{Apenas um Epoch}
+
+\subsection{Limitando os Dados}
+
+\subsection{Modelos Pré-Treinados}
+
+\section{Análise dos Resultados}
+
+
+
+
+\section{Conclusões e Discussões}
+
+
+\bibliography{mybib}
+\nocite{*}
+\bibliographystyle{IEEEtran}
+\end{document}
