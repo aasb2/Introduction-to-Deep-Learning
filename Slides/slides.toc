@@ -1,9 +1,8 @@
 \beamer@sectionintoc {1}{Base de Dados}{4}{0}{1}
-\beamer@subsectionintoc {1}{1}{Variáveis de Entrada}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Variável de Saída}{5}{0}{1}
+\beamer@subsectionintoc {1}{1}{CIFAR100}{4}{0}{1}
 \beamer@sectionintoc {2}{Análise Exploratória dos Dados}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{Descrição Estatística dos Dados}{6}{0}{2}
-\beamer@subsectionintoc {2}{2}{Gráficos}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Quantidade de Imagens por Classe}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Imagens Médias}{7}{0}{2}
 \beamer@sectionintoc {3}{Classificador Ingênuo de Bayes}{11}{0}{3}
 \beamer@subsectionintoc {3}{1}{História}{11}{0}{3}
 \beamer@subsectionintoc {3}{2}{Definição Formal do Teorema de Bayes}{12}{0}{3}

@@ -1,22 +1,21 @@
 \BOOKMARK [2][]{Outline0.1}{Base\040de\040Dados}{}% 1
-\BOOKMARK [3][]{Outline0.1.1.4}{Variáveis de Entrada}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.2.5}{Variável de Saída}{Outline0.1}% 3
-\BOOKMARK [2][]{Outline0.2}{Análise Exploratória dos Dados}{}% 4
-\BOOKMARK [3][]{Outline0.2.1.6}{Descrição Estatística dos Dados}{Outline0.2}% 5
-\BOOKMARK [3][]{Outline0.2.2.7}{Gráficos}{Outline0.2}% 6
-\BOOKMARK [2][]{Outline0.3}{Classificador Ingênuo de Bayes}{}% 7
-\BOOKMARK [3][]{Outline0.3.1.11}{História}{Outline0.3}% 8
-\BOOKMARK [3][]{Outline0.3.2.12}{Definição Formal do Teorema de Bayes}{Outline0.3}% 9
-\BOOKMARK [3][]{Outline0.3.3.13}{Tipos de Classificadores Ingênuo de Bayes}{Outline0.3}% 10
-\BOOKMARK [3][]{Outline0.3.4.14}{Vantagens}{Outline0.3}% 11
-\BOOKMARK [3][]{Outline0.3.5.15}{Desvantagens}{Outline0.3}% 12
-\BOOKMARK [3][]{Outline0.3.6.16}{Sobre\040o\040Projeto}{Outline0.3}% 13
-\BOOKMARK [2][]{Outline0.4}{Experimentos}{}% 14
-\BOOKMARK [3][]{Outline0.4.1.17}{Experimentos\040Iniciais}{Outline0.4}% 15
-\BOOKMARK [3][]{Outline0.4.2.20}{Usando Apenas a Variável Age para Treino}{Outline0.4}% 16
-\BOOKMARK [3][]{Outline0.4.3.22}{Usando Apenas Variáveis Numéricas Para Treino}{Outline0.4}% 17
-\BOOKMARK [2][]{Outline0.5}{Análise dos Resultados}{}% 18
-\BOOKMARK [3][]{Outline0.5.1.24}{Resultados Iníciais}{Outline0.5}% 19
-\BOOKMARK [3][]{Outline0.5.2.25}{Perfil\040Mais\040Receptivo}{Outline0.5}% 20
-\BOOKMARK [3][]{Outline0.5.3.26}{Perfil\040Menos\040Receptivo}{Outline0.5}% 21
-\BOOKMARK [3][]{Outline0.5.4.27}{Categorias exóticas}{Outline0.5}% 22
+\BOOKMARK [3][]{Outline0.1.1.4}{CIFAR100}{Outline0.1}% 2
+\BOOKMARK [2][]{Outline0.2}{Análise Exploratória dos Dados}{}% 3
+\BOOKMARK [3][]{Outline0.2.1.6}{Quantidade\040de\040Imagens\040por\040Classe}{Outline0.2}% 4
+\BOOKMARK [3][]{Outline0.2.2.7}{Imagens Médias}{Outline0.2}% 5
+\BOOKMARK [2][]{Outline0.3}{Classificador Ingênuo de Bayes}{}% 6
+\BOOKMARK [3][]{Outline0.3.1.11}{História}{Outline0.3}% 7
+\BOOKMARK [3][]{Outline0.3.2.12}{Definição Formal do Teorema de Bayes}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.3.13}{Tipos de Classificadores Ingênuo de Bayes}{Outline0.3}% 9
+\BOOKMARK [3][]{Outline0.3.4.14}{Vantagens}{Outline0.3}% 10
+\BOOKMARK [3][]{Outline0.3.5.15}{Desvantagens}{Outline0.3}% 11
+\BOOKMARK [3][]{Outline0.3.6.16}{Sobre\040o\040Projeto}{Outline0.3}% 12
+\BOOKMARK [2][]{Outline0.4}{Experimentos}{}% 13
+\BOOKMARK [3][]{Outline0.4.1.17}{Experimentos\040Iniciais}{Outline0.4}% 14
+\BOOKMARK [3][]{Outline0.4.2.20}{Usando Apenas a Variável Age para Treino}{Outline0.4}% 15
+\BOOKMARK [3][]{Outline0.4.3.22}{Usando Apenas Variáveis Numéricas Para Treino}{Outline0.4}% 16
+\BOOKMARK [2][]{Outline0.5}{Análise dos Resultados}{}% 17
+\BOOKMARK [3][]{Outline0.5.1.24}{Resultados Iníciais}{Outline0.5}% 18
+\BOOKMARK [3][]{Outline0.5.2.25}{Perfil\040Mais\040Receptivo}{Outline0.5}% 19
+\BOOKMARK [3][]{Outline0.5.3.26}{Perfil\040Menos\040Receptivo}{Outline0.5}% 20
+\BOOKMARK [3][]{Outline0.5.4.27}{Categorias exóticas}{Outline0.5}% 21

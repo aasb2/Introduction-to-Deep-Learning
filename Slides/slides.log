@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.5.27)  19 DEC 2021 14:56
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.5.27)  19 DEC 2021 15:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -665,21 +665,10 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 77.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 77.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 77.
- [4
+Overfull \vbox (16.25792pt too high) detected at line 50
+ []
+
+[4
 
 ] [5
 
@@ -695,7 +684,22 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
 
 ] [11
 
-] [12
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 133.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 133.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 133.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 133.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 133.
+ [12
 
 ] [13
 
@@ -709,11 +713,11 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 312.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 270.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 312.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 270.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 312.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 270.
  [18
 
 ] [19
@@ -723,7 +727,7 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 ] [21
 
 ]
-Overfull \vbox (15.13347pt too high) detected at line 472
+Overfull \vbox (15.13347pt too high) detected at line 430
  []
 
 [22
@@ -748,21 +752,21 @@ Overfull \vbox (15.13347pt too high) detected at line 472
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 529.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 529.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 487.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 487.
  (/home/student/Desktop/Introduction-to-Deep-Learning/Slides/slides.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 529.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 487.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 487.
 Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: 0F18D83866FE0BE4496A091C5AE32F8E;1572.
+(rerunfilecheck)             Checksum: 1563E3A1C6E169A08CBC5AEE58E328CD;1506.
  ) 
 Here is how much of TeX's memory you used:
- 21287 strings out of 479819
- 391127 string characters out of 5895846
- 648950 words of memory out of 5000000
- 37941 multiletter control sequences out of 15000+600000
- 540083 words of font info for 70 fonts, out of 8000000 for 9000
+ 21288 strings out of 479819
+ 391193 string characters out of 5895846
+ 648721 words of memory out of 5000000
+ 37940 multiletter control sequences out of 15000+600000
+ 540091 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  58i,15n,67p,859b,673s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /home/student/Desktop/Introduction-to-Deep-Learning/Slides/slides.xdv (27 pages, 769460 bytes).
+Output written on /home/student/Desktop/Introduction-to-Deep-Learning/Slides/slides.xdv (27 pages, 775452 bytes).
