@@ -480,4 +480,8 @@
         Epoch:  [50/50]: Loss : 3.054283313751221 Step: 100
         Epoch:  [50/50]: Loss : 3.039636936187744 Step: 200
         The Training is Finished
- 
+        
+# Sem Normalizar 
+
+- CNN100
+    TIME:
