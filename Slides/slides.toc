@@ -1,0 +1,22 @@
+\beamer@sectionintoc {1}{Base de Dados}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Variáveis de Entrada}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Variável de Saída}{5}{0}{1}
+\beamer@sectionintoc {2}{Análise Exploratória dos Dados}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Descrição Estatística dos Dados}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Gráficos}{7}{0}{2}
+\beamer@sectionintoc {3}{Classificador Ingênuo de Bayes}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{História}{11}{0}{3}
+\beamer@subsectionintoc {3}{2}{Definição Formal do Teorema de Bayes}{12}{0}{3}
+\beamer@subsectionintoc {3}{3}{Tipos de Classificadores Ingênuo de Bayes}{13}{0}{3}
+\beamer@subsectionintoc {3}{4}{Vantagens}{14}{0}{3}
+\beamer@subsectionintoc {3}{5}{Desvantagens}{15}{0}{3}
+\beamer@subsectionintoc {3}{6}{Sobre o Projeto}{16}{0}{3}
+\beamer@sectionintoc {4}{Experimentos}{17}{0}{4}
+\beamer@subsectionintoc {4}{1}{Experimentos Iniciais}{17}{0}{4}
+\beamer@subsectionintoc {4}{2}{Usando Apenas a Variável Age para Treino}{20}{0}{4}
+\beamer@subsectionintoc {4}{3}{Usando Apenas Variáveis Numéricas Para Treino}{22}{0}{4}
+\beamer@sectionintoc {5}{Análise dos Resultados}{24}{0}{5}
+\beamer@subsectionintoc {5}{1}{Resultados Iníciais}{24}{0}{5}
+\beamer@subsectionintoc {5}{2}{Perfil Mais Receptivo}{25}{0}{5}
+\beamer@subsectionintoc {5}{3}{Perfil Menos Receptivo}{26}{0}{5}
+\beamer@subsectionintoc {5}{4}{Categorias exóticas}{27}{0}{5}

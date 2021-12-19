@@ -1,0 +1,143 @@
+\begin{columns}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}[h]
+            \caption{Exemplo}
+            \centering % para centralizarmos a figura
+            \includegraphics[width=1\textwidth]{IMGS/img1.png}
+            \label{figura:distidade}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}[h]
+            \caption{Exemplo2}
+            %\centering % para centralizarmos a figura
+            \includegraphics[width=1\textwidth]{IMGS/img2.png}
+            \label{figura:fig2}
+        \end{figure}
+    \end{column}
+    \end{columns} 
+    
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}[h]
+            \caption{Exemplo 3}
+            \centering % para centralizarmos a figura
+            \includegraphics[width=1\textwidth]{IMGS/img3.png}
+            \label{figura:distidade}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}[h]
+            \caption{Exemplo 4}
+            \centering % para centralizarmos a figura
+            \includegraphics[width=1\textwidth]{IMGS/img4.png}
+            \label{figura:fig4}
+        \end{figure}
+    \end{column}
+    \end{columns} 
+    
+    
+    
+    
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[h]
+                \caption{Exemplo 5}
+                \centering % para centralizarmos a figura
+                \includegraphics[width=1\textwidth]{IMGS/img5.png}
+                \label{figura:distidade}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[h]
+                \caption{Exemplo 6}
+                \centering % para centralizarmos a figura
+                \includegraphics[width=1\textwidth]{IMGS/img6.png}
+                \label{figura:fig4}
+            \end{figure}
+        \end{column}
+        \end{columns}
+        
+        
+        
+      
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[h]
+                \caption{Exemplo 7}
+                \centering % para centralizarmos a figura
+                \includegraphics[width=1\textwidth]{IMGS/img7.png}
+                \label{figura:distidade}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+
+        \end{column}
+        \end{columns} 
+        
+\begin{figure}[H]
+    \centerline{\includegraphics[width=1.0\textwidth]{IMGS/block1.png}}
+\end{figure}            
+
+
+\begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[H]
+                \centerline{\includegraphics[width=1.0\textwidth]{IMGS/cm-categorico.png}}
+                
+                \caption{\label{fig:cm1-cnb}Confusion Matrix do Classificador Categórico}
+                \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[H]
+                \centerline{\includegraphics[width=1.0\textwidth]{IMGS/cm-gaussiano.png}}
+                \label{cm1-gnb}
+                \caption{\label{fig:cm1-gnb}Confusion Matrix do Classificador Gaussiano}
+                \end{figure}
+        \end{column}
+        \end{columns}    
+        
+        
+        
+\begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[H]
+                \centerline{\includegraphics[width=1.0\textwidth]{IMGS/cm-cnb-age-only.png}}
+                
+                \caption{\label{fig:cm2-cnb}Confusion Matrix do Classificador Categórico}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[H]
+                \centerline{\includegraphics[width=1.0\textwidth]{IMGS/cm-gnb-age-only.png}}
+                \caption{\label{fig:cm2-gnb}Confusion Matrix do Classificador Gaussiano}
+            \end{figure}
+        \end{column}
+        \end{columns}  
+\begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[H]
+                \centerline{\includegraphics[width=1.0\textwidth]{IMGS/cm-cnb-numeric.png}}
+                
+                \caption{\label{fig:cm3-cnb}Confusion Matrix do Classificador Categórico}
+            \end{figure}
+            
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[H]
+                \centerline{\includegraphics[width=1.0\textwidth]{IMGS/cm-gnb-numeric.png}}
+                \caption{\label{fig:cm3-gnb}Confusion Matrix do Classificador Gaussiano}
+            \end{figure}
+        \end{column}
+        \end{columns}      
+        
+        
+        	\begin{columns}
+		\begin{column}{1\textwidth}
+			\begin{figure}[H]
+				\centerline{\includegraphics[width=1.0\textwidth]{IMGS/analise1.png}}
+				
+				\caption{\label{fig:analise1}Categorias mais exóticas}
+			\end{figure}
+		\end{column}
+	\end{columns}   
