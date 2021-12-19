@@ -67,132 +67,53 @@
 \begin{frame}
 \section{Análise Exploratória dos Dados}
 \frametitle{Análise Exploratória dos Dados}
-\subsection{Quantidade de Imagens por Classe}
-\framesubtitle{Quantidade de Imagens por Classe} 
-
-\end{frame}
-    
-\begin{frame}
-\frametitle{Análise Exploratória dos Dados}
-\subsection{Imagens Médias}
-\framesubtitle{Imagens Médias}
-
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Análise Exploratória dos Dados}
-\framesubtitle{Gráficos}
-
-
-
-      
-\end{frame}
-
-
-\begin{frame}
-    \frametitle{Análise Exploratória dos Dados}
-    \framesubtitle{Gráficos}
-    
-          
-\end{frame}
-    
-\begin{frame}
-    \frametitle{Análise Exploratória dos Dados}
-    \framesubtitle{Gráficos}
-    
-    
-          
-\end{frame}
-
-\begin{frame}
-    \section{Classificador Ingênuo de Bayes}
-    \frametitle{Classificador Ingênuo de Bayes}
-    \subsection{História}
-    \framesubtitle{O que é Naive Bayes}
-    
-    Baseado no Teorema de Bayes, nome em homenagem ao matemático e pastor presbiteriano inglês Thomas Bayes, que formulou uma função probabilística com o ideal de provar a existência de Deus, é um algoritmo de classificação probabilística muito utilizado para aprendizado de máquina (Machine Learning).
-    
-\end{frame}
-
-\begin{frame}
-\frametitle{Classificador Ingênuo de Bayes}
-\subsection{Definição Formal do Teorema de Bayes}
-\framesubtitle{Definição Formal do Teorema de Bayes}
-\begin{equation}
-    P(A|B) = \frac{P(B|A)P(A)}{P(B)}
-\end{equation}
-
 \begin{itemize}
-\item $P(A|B)$ : Probabilidade do evento A ocorrer dado que o evento B ocorreu.
-\item $P(B|A)$ : Probabilidade do evento B ocorrer dado que o evento A ocorreu.
-\item $P(A)$   : Probabilidade do evento A ocorrer
-\item $P(B)$   : Probabilidade do evento B ocorrer. 
+\item Quantidades de Imagens por Classes
+\item Imagem Média
+
 \end{itemize}
 
 \end{frame}
-
-\begin{frame}
-\frametitle{Classificador Ingênuo de Bayes}
-\subsection{Tipos de Classificadores Ingênuo de Bayes}
-\framesubtitle{Tipos de Classificadores Ingênuo de Bayes}
-\begin{itemize}
-\item Bayes Ingênuo Gaussiano
-\item Bayes Ingênuo Categórico
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Classificador Ingênuo de Bayes}
-    \subsection{Vantagens}
-    \framesubtitle{Vantagens}
-    \begin{itemize}
-    \item Rápido
-    \item Eficiente
-    \item Lida com múltiplos tidos de dados
-    \item Ignora características irrelevantes
     
-    \end{itemize}
-    \end{frame}
-    \begin{frame}
-    \frametitle{Classificador Ingênuo de Bayes}
-    \subsection{Desvantagens}
-    \framesubtitle{Desvantagens}
-    \begin{itemize}
-    \item Previsão falha em frequência zero
-    \item Ignorar a correlação entre as variáveis
-    \end{itemize}
-    \end{frame}
+
+
+
+
+
 
 \begin{frame}
-\frametitle{Classificador Ingênuo de Bayes}
-\subsection{Sobre o Projeto}
-\framesubtitle{Sobre o Projeto}
- 
+    \section{Redes Neurais Convolucionais}
+    \frametitle{Redes Neurais Convolucionais}
+        \begin{itemize}
+            \item O Nosso Modelo
+            \item Lenet
+            \item AlexNet
+        \end{itemize}
+    
 \end{frame}
 
 
 \begin{frame}
 \section{Experimentos} 
 \frametitle{Experimentos}
-\subsection{Experimentos Iniciais}
-\framesubtitle{Experimentos Iniciais}
+\subsection{Métricas}
+\framesubtitle{Métricas}
 \begin{itemize}
 \item Precision:
 \begin{equation}
-    \frac{t_p}{t_p + f_p}
+    \frac{A_c}{A_c + A_e}
 \end{equation}
 \item Accuracy
 \begin{equation}
-    \frac{t_p + t_n}{t_p + t_n + f_p + f_n}
+    \frac{\sum\limits_{1}^{n}A_c}{\sum\limits_{1}^{n}A_t}
 \end{equation}
 \item Recall Score
 \begin{equation}
-    \frac{t_p}{t_p + f_n}
+    \frac{A_c}{A_t}
 \end{equation}
 \item F1 Score
 \begin{equation}
-    \frac{2\cdot(precision\cdot recall)}{precision +  recall}
+    \frac{2\cdot(precision\cdot recall)}{precision + recall}
 \end{equation}
 \end{itemize}
 \end{frame}
@@ -203,285 +124,36 @@
 
 \begin{frame}
 \frametitle{Experimentos}
-\framesubtitle{Experimentos Iniciais}
-\begin{table}[H]
-    \centering
-    \begin{small}
-        \begin{tabular}{ccc}
-            \\
-            %\multicolumn{2}{c}{{\fontsize{13}{\baselineskip} \selectfont C}{\fontsize{11}{\baselineskip}\selectfont RONOGRAMA DE}{\fontsize{13}{\baselineskip} \selectfont A}{\fontsize{11}{\baselineskip}\selectfont TIVIDADES }}\\ 
-            \\
-            \hline
-                                    & Categórico       & Gaussiano\\
-            \hline
-            Precision               & 0.89             & 0.84\\
-            Accuracy                & 0.89             & 0.84\\
-            Recall Score            & 0.89             & 0.84\\
-            F1-Score                & 0.89             & 0.84\\
-            
-            \hline
-        \end{tabular}
-    \end{small}
-\end{table}
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-            \begin{table}[H]
-
-                \centering
-                \caption{\label{tab:cr1-cnb} Relatório de Classificação por Label do Classificador Categórico.}
-                \begin{small}
-                    \begin{tabular}{ccc}
-                    
-                        \hline
-                                                & 0                & 1\\
-                        \hline
-                        Precision               & 0.93             & 0.53\\
-                        Recall Score            & 0.95             & 0.43\\
-                        F1-Score                & 0.94             & 0.47\\
-                        
-                        \hline
-                    \end{tabular}
-                \end{small}
-            
-            \end{table}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{table}[H]
-
-                \centering
-                \caption{\label{tab:cr1-gnb} Relatório de Classificação por Label do Classificador Gaussiano}
-                \begin{small}
-                    \begin{tabular}{ccc}
-                    
-                        \hline
-                                                & 0                & 1\\
-                        \hline
-                        Precision                & 0.89             & 0.49\\
-                        Recall Score            & 1.00             & 0.03\\
-                        F1-Score                & 0.94             & 0.06\\
-                        
-                        \hline
-                    \end{tabular}
-                \end{small}
-            
-            \end{table}
-        \end{column}
-        \end{columns}    
-\end{frame}
-
-\begin{frame}
-    \frametitle{Experimentos}
-    \framesubtitle{Experimentos Iniciais}
-    
-\end{frame}
-
-
-
-
-
-
-
-\begin{frame}
-    \frametitle{Experimentos}
-    \subsection{Usando Apenas a Variável Age para Treino}
-    \framesubtitle{Usando Apenas a Variável Age para Treino}
-    \begin{table}[H]
-        \centering
-        \begin{small}
-            \begin{tabular}{ccc}
-                \\
-                %\multicolumn{2}{c}{{\fontsize{13}{\baselineskip} \selectfont C}{\fontsize{11}{\baselineskip}\selectfont RONOGRAMA DE}{\fontsize{13}{\baselineskip} \selectfont A}{\fontsize{11}{\baselineskip}\selectfont TIVIDADES }}\\ 
-                \\
-                \hline
-                                        & Categórico       & Gaussiano\\
-                \hline
-                Precision               & 0.88             & 0.88\\
-                Accuracy                & 0.88             & 0.88\\
-                Recall Score            & 0.88             & 0.88\\
-                F1-Score                & 0.88             & 0.88\\
-                
-                \hline
-            \end{tabular}
-        \end{small}
-    \end{table}
-        \begin{columns}
-            \begin{column}{0.5\textwidth}
-                \begin{table}[H]
-
-                    \centering
-                    \caption{\label{tab:cr2-cnb} Relatório de Classificação por Label do Classificador Categórico.}
-                    \begin{small}
-                        \begin{tabular}{ccc}
-                        
-                            \hline
-                                                    & 0                & 1\\
-                            \hline
-                            Precision               & 0.88             & 0.50\\
-                            Recall Score            & 1.00             & 0.02\\
-                            F1-Score                & 0.94             & 0.04\\
-                            
-                            \hline
-                        \end{tabular}
-                    \end{small}
-                \end{table}
-            \end{column}
-            \begin{column}{0.5\textwidth}
-                \begin{table}[H]
-
-                    \centering
-                    \caption{\label{tab:cr2-gnb} Relatório de Classificação por Label do Classificador Gaussiano}
-                    \begin{small}
-                        \begin{tabular}{ccc}
-                        
-                            \hline
-                                                    & 0                & 1\\
-                            \hline
-                            Precision               & 0.88             & 0.48\\
-                            Recall Score            & 1.00             & 0.03\\
-                            F1-Score                & 0.94             & 0.05\\
-                            
-                            \hline
-                        \end{tabular}
-                    \end{small}
-                
-                \end{table}
-            \end{column}
-            \end{columns}    
-    \end{frame}
-    
-\begin{frame}
-    \frametitle{Experimentos}
-    \framesubtitle{Usando Apenas a Variável Age para Treino}
-    
-\end{frame}
-
-
-
-
-
-\begin{frame}
-    \frametitle{Experimentos}
-    \subsection{Usando Apenas Variáveis Numéricas Para Treino}
-    \framesubtitle{Usando Apenas Variáveis Numéricas Para Treino}
-    \begin{table}[H]
-        \centering
-        \caption{\label{tab:cr3-gt} Comparação entre o Classificador Categórico e o Gaussiano}
-        \begin{small}
-            \begin{tabular}{ccc}
-                \\
-                %\multicolumn{2}{c}{{\fontsize{13}{\baselineskip} \selectfont C}{\fontsize{11}{\baselineskip}\selectfont RONOGRAMA DE}{\fontsize{13}{\baselineskip} \selectfont A}{\fontsize{11}{\baselineskip}\selectfont TIVIDADES }}\\ 
-                \\
-                \hline
-                                        & Categórico       & Gaussiano\\
-                \hline
-                Precision               & 0.89             & 0.89\\
-                Accuracy                & 0.89             & 0.89\\
-                Recall Score            & 0.89             & 0.89\\
-                F1-Score                & 0.89             & 0.89\\
-                
-                \hline
-            \end{tabular}
-        \end{small}
-    \end{table}
-
-
-        \begin{columns}
-            \begin{column}{0.5\textwidth}
-                \begin{table}[H]
-                    \caption{\label{tab:cr3-cnb} Relatório de Classificação por Label do Classificador Categórico.}
-                    \centering
-                    \begin{small}
-                        \begin{tabular}{ccc}
-                        
-                            \hline
-                                                    & 0                & 1\\
-                            \hline
-                            Precision               & 0.89             & 0.63\\
-                            Recall Score            & 0.99             & 0.11\\
-                            F1-Score                & 0.94             & 0.18\\
-                            
-                            \hline
-                        \end{tabular}
-                    \end{small}
-                \end{table}
-            \end{column}
-            \begin{column}{0.5\textwidth}
-                \begin{table}[H]
-
-                    \centering
-                    \caption{\label{tab:cr3-gnb} Relatório de Classificação por Label do Classificador Gaussiano}
-                    \begin{small}
-                        \begin{tabular}{ccc}
-                        
-                            \hline
-                                                    & 0                & 1\\
-                            \hline
-                            Precision               & 0.91             & 0.53\\
-                            Recall Score            & 0.96             & 0.32\\
-                            F1-Score                & 0.94             & 0.40\\
-                            
-                            \hline
-                        \end{tabular}
-                    \end{small}
-                
-                \end{table}
-            \end{column}
-            \end{columns}    
-    \end{frame}
-    
-\begin{frame}
-    \frametitle{Experimentos}
-    \framesubtitle{Usando Apenas Variáveis Numéricas Para Treino}
-    
-\end{frame}
-
-\begin{frame}
-\section{Análise dos Resultados}
-\subsection{Resultados Iníciais}
-\frametitle{Análise dos Resultados}
-\framesubtitle{Resultados Iniciais}  
 \begin{itemize}
-\item Classificador Gaussiano vs Classificador Categórico
-\item Número de Features
-\item Falsos positivos vs Falsos Negativos
+    \item CIFAR10
+    \item Treinando os Modelos
+    \item Apenas um Epoch
+    \item Limitando os Dados
+    \item Sem Normalização
+    \item LeNet com ReLu
 \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Análise dos Resultados}  
-    \subsection{Perfil Mais Receptivo}
-    \framesubtitle{Perfil Mais Receptivo}
-    \begin{itemize}
-    \item Profissão: estudante
-    \item Estado Civil: divorciado
-    \item Credito Pessoal: possui
-    \item Credito de Habitação: não possui
-    \item Tipo de Contato: celular
-    \item Educação: ensino médio
-    \item Mês da Campanha: setembro
-    \end{itemize}
-\end{frame}
 
-\begin{frame}
-    \frametitle{Análise dos Resultados}  
-    \subsection{Perfil Menos Receptivo}
-    \framesubtitle{Perfil Menos Receptivo}
-    \begin{itemize}
-    \item Profissão: operario
-    \item Estado Civil: casado
-    \item Credito Pessoal: não possui
-    \item Credito de Habitação: possui
-    \item Tipo de Contato: unknown
-    \item Educação: ensino fundamental
-    \item Mês da Campanha: maio
-    \end{itemize}
-\end{frame}
+
+
+
+
+
+
+
+
+
+
+
 
 
 \begin{frame}
 	\frametitle{Análise dos Resultados}
-    \subsection{Categorias exóticas}
-	\framesubtitle{Categorias exóticas}
+    \begin{itemize}
+        \item{Comparação Entre os Modelos}
+        \item Conclusões e Discussões
+    \end{itemize}
  
 \end{frame}
 \end{document}
