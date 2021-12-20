@@ -317,13 +317,19 @@ Esse desempenho da LeNet nos levou a uma modificação.
 
 \section{Análise dos Resultados}
 \subsection{LeNet com Relu}
-
+Nós nos deparamos com um problema, a rede LeNet com a função sigmoid estava tendo resultados muito abaixo, comparado as demais, redes. Abaixo até mesmo considerando a complexidade do tamanho da rede. Portanto, modificamos a rede para uma função ReLu no lugar da sigmoid, e obtivemos bom resultado. Temos que a sua acurácia aumentou para 33.75\%. Isso mostra a modernidade da ReLU, como função de ativação.
 \subsection{Desempenho da rede com os dados ruidosos}
+Para avaliar o desempenho das redes, aplicamos um ruido gaussiano nas imagens de teste, e testamos a acurácia da rede, mesmo após a aplicação do filtro que gerou o ruido e tivemos as acurácias de 17.97\% do nosso modelo convolucional, 28.02\% a LeNet com Relu e 8.18\% a AlexNet
 
+\begin{figure}[h]
+	\centerline{\includegraphics[width=8cm]{Images/imagensnoised.png}}
+	
+	\caption{\label{fig:fig2}Imagens Ruidosas}
+\end{figure}
 
 
 \section{Conclusões e Discussões}
-
+Podemos observar que, para determinados problemas, existem soluções variadas e, geralmente, temos que obter dados específicos do problema para construir uma solução viável. Isso se aplica as redes neurais em geral, e as redes convolucionais, especificamente. Vemos que o tamanho do modelo, não implica em eficácia, e também que as diferentes variações dos modelos, geram novas soluções e melhores. Apesar da grande proposta das redes profundas, lidar com a idéia da máquina extraindo todas as caracteristicas e funcionando com um sistema que apenas inserimos os dados como entrada, vemos que, as redes para resolver diferentes problemas, possuem diferentes tamanhos e formatos, baseados em considerações particulares das condições do problema analisado, ou seja, vemos muitos modelos adaptados aos diferentes tipos e formatos de dados, em contraste com um modelo mais abstrato e generalista. (Com destaque, para algumas propostas modernas de modelos generalistas, que estão atualmente implementados) Apesar disso, a quantidade de aplicações das redes neurais e a facilidade de adaptação das redes para resolver vários tipos de problemas, é o que garante a grande capacidade dessas redes em realmente aprender diversos tipos de questões abstratas, o que significa que elas podem realmente, aprender sobre os dados.
 
 \bibliography{mybib}
 \nocite{*}
