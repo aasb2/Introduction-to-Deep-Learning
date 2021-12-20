@@ -227,15 +227,23 @@ A diagonal do meio representa a quantidade de amostras classificadas corretament
 
 
 
-\section{Redes Neurais Convolucionais}
-
-
 \subsection{O Nosso Modelo}
+O modelo que escolhemos não é tão robusto na quantidade de parâmetros, porém é inspirado em soluções modernas de redes convolucionais.
+Possui quatro camadas convolucionais, além de Batch Normalization e DropOut, que são técnicas para evitar alguns problemas advindos do treinamento com o conjunto de treino e validação com o conjunto de teste. Além da camadas totalmente conectadas, para transformação dos parâmetros de saída das convoluções em valores das classes de saida do problema.
+
+\subsection{LeNet}
+Um modelo bem simples e que vem dos primórdios da estrutura de rede neural convolucional, proposto por Yann LeCun, em 1989, para lidar com a extração de características das imagens de entrada, aplicando os princípios de redes convolucionais, que são boas para obtenção de características, em dados que têm dependência espacial. 
+
 \subsection{AlexNet}
+Modelo mais moderno, porém já utilizado como base para geração de outros modelos. Possui uma estrutura bem robusta, porém sua grande sacada, é a idéia proposta pelo trio Krizhevsky, Sutskever e Hinton, que utilizou do grande poder das GPUs para realizar o treinamento das redes, com uma rede apropriada para se utilizar desse potencial de processamento.
 
-\subsection{GoogLeNet}
+\begin{figure}[h]
+	\centerline{\includegraphics[width=8cm]{Images/Comparison_image_neural_networks.svg.png}}
+	
+	\caption{\label{fig:fig2}Diferença entre os modelos LeNet e AlexNet}
+\end{figure}
 
-
+Os Modelos da LeNet e AlexNet foram modificados de maneira a receber como entrada imagem de resolução 32x32, sem precisar de um resize. Outra modificação q se mostrou interessante foi a aplicação da Relu ao invés da Sigmoid.
 
 
 \section{Experimentos}
@@ -243,15 +251,15 @@ A diagonal do meio representa a quantidade de amostras classificadas corretament
 %\subsection{Experimentos Iniciais}
 
 \subsection{CIFAR10}
-
+Foram realizados experimentos com o CIFAR10 que é como um subconjunto de classes pertencentes ao CIFAR100, possui 10 categorias de saída, e é util para fazer uma avaliação rápida e com pouco treinamento, garantindo ainda assim, boa performance dos modelos.
 
 \subsection{Similaridade de Pixel}
 
 Baseado na abordagem do fastai \cite{howard2020deep}
 iremos criar um modelo básico que não utiliza aprendizado de máquina, 
 para ter uma precisão como base para verificar o desempenho dos próximos modelos.
- Esse método basicamente cálcula uma imagem média para cada classe do conjunto de treino, 
- esta imagem média é basicamente uma imagem formada pela média de cada pixel das imagens de uma classe.
+Esse método basicamente cálcula uma imagem média para cada classe do conjunto de treino, 
+esta imagem média é basicamente uma imagem formada pela média de cada pixel das imagens de uma classe.
 
 Para fazer a predição esta arquitetura basicamente cálcula a distância de uma imagem a imagem média,
 e escolhe a classe com a menor distância.
@@ -262,15 +270,44 @@ que teve uma 'accuracy' razoável com este método, temos que a 'accuracy' que t
 e imagens coloridas, não é melhor do que selecionarmos uma classe ao acaso.
 
 \subsection{Treinando os Modelos}
+Os dados do dataset que foram separados, agora serão usados para o treinamento e avaliação da performance das redes neurais.
+Para realizar o treino os dados foram separados em batchs, e todos os três modelos foram treinados durante 50 épocas, para que houvesse um período de aprendizagem razoável de acordo com o tamanho das redes.
+A cada época de treino e alguns batchs foram selecionados para mostrar a o valor da função loss, e mostrar a evolução do treinamento em diferentes épocas.
+
+Os desempenhos da nossa rede, foram melhores que as duas outras, em 50 épocas de treinamento:
+O nosso modelo, garantiu a acurácia
+
+\begin{itemize}
+	\item Nosso: de $\frac{5520}{10000}$ = 55.2\%
+	\item LeNet: 1\%
+	\item AlexNet: de ${4906 \over 10000}$ = 49.059999999999995\%
+\end{itemize}
+
+E um exemplo do desempenho do nosso modelo para cada classe do dataset:
+\begin{figure}[h]
+	\centerline{\includegraphics[width=8cm]{Images/treinamento2.png}}
+	
+	\caption{\label{fig:fig2}Desempenho 50 Épocas}
+\end{figure}
+
 
 \subsection{Apenas um Epoch}
+Para o treinamento com apenas uma época, nós restauramos o modelo ao estado sem treinamento, e determinamos o num epochs como 1. Esse tipo de treinamento serve para avaliar a perfomance inicial do modelo ao ser corrigido pelas funções de perda.
 
-\subsection{Imagens em Grayscale}
+O nosso modelo, também garantiu melhor desempenho com apenas uma época, com acurácia de 14.85\%, enquanto a acurácia da AlexNet foi de 14.85\%, já a LeNet apenas 1\%.
 
 \subsection{Limitando os Dados}
-
+O treinamento com limitação de dados também é uma boa opção para avaliar a capacidade das redes em aprender com poucos exemplos.
+É possível perceber que os desempenhos de todas as redes acaba caindo, pois existe um princípio, de que, quanto mais exemplos de todas as classes você tiver, mais preciso e mais acurado ele tenderá a ser. Ou seja, ele irá aprender mais sobre aquelas classes.
+Foi utilizado então, como objetivo de atingir esse experimento, a utilização dos dados de treinamento como dados de teste, e os dados de teste serviram como treinamento.
+Nesse caso, apesar da perda de desempenho, nosso modelo teve a performance de 30.194\%, a AlexNet de 19.054\% e a LeNet de 1\%
 
 \subsection{Sem Normalização e sem Data Augmentation}
+Por último, foi realizado o treinamento sem normalização. A normalização é uma estratégia para que o treinamento seja realizado mais rapidamente, e para evitar alguns problemas que podem surgir nas métricas das funções de erro.
+Os desempenhos sem normalização foram um pouco menores, o que nos mostra que essa estratégia é realmente útil para se aplicar nos treinamentos da rede.
+A nossa rede obteve, 49.76\% de acurácia, a AlexNet 42.1\% e a LeNet apenas 0.67\%
+
+Esse desempenho da LeNet nos levou a uma modificação.
 
 
 
@@ -279,7 +316,9 @@ e imagens coloridas, não é melhor do que selecionarmos uma classe ao acaso.
 %\subsection{Modelos Pré-Treinados}
 
 \section{Análise dos Resultados}
+\subsection{LeNet com Relu}
 
+\subsection{Desempenho da rede com os dados ruidosos}
 
 
 
